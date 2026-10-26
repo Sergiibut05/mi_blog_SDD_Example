@@ -1,0 +1,11 @@
+from django.contrib import admin
+from .models import Post
+
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('title', 'is_published', 'published_at', 'slug')
+    list_filter = ('is_published', 'published_at')
+    search_fields = ('title', 'content')
+    prepopulated_fields = {'slug': ('title',)}
+    ordering = ('-published_at',)

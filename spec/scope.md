@@ -9,10 +9,10 @@ Entregar un blog personal mínimo construido con Django para publicar y leer ent
 - **Listado de publicaciones:** página de inicio en `/`, con publicaciones ordenadas por fecha descendente y título, fecha y extracto para cada una.
 - **Detalle de publicación:** página por entrada que muestra título, fecha y contenido completo, con un enlace para volver al listado. Se recomienda una URL legible con `slug`, por ejemplo `/posts/<slug>/`.
 - **Modelo de datos:** publicación con título, contenido y fecha de publicación; `slug` único para las URLs cuando se utilice.
-- **Administración:** crear, editar y borrar publicaciones mediante Django Admin. No habrá formularios públicos de escritura.
+- **Administración:** crear, editar y borrar publicaciones mediante Django Admin. Cada publicación puede estar en borrador o publicada; solo las publicadas son visibles al público. No habrá formularios públicos de escritura.
 - **Contenido de ejemplo:** incluir o documentar entre dos y tres publicaciones de prueba; el nombre inicial del blog será “Mi Blog”.
 - **Portada visual:** incluir una imagen representativa en la página de inicio, optimizada y adaptable a móvil y escritorio. Puede ser una imagen o ilustración estática; no requiere gestión desde Django Admin.
-- **Imágenes por publicación:** permitir asociar una imagen ilustrativa a cada entrada y gestionarla desde Django Admin. Las imágenes son opcionales; cuando encaje con el contenido, se priorizarán imágenes o ilustraciones de tono humorístico.
+- **Imágenes por publicación:** permitir asociar una imagen ilustrativa a cada entrada y gestionarla desde Django Admin. Las imágenes son opcionales y deben ser pertinentes al contenido.
 - **Interfaz:** HTML y CSS propio mínimo, tipografía legible y diseño adaptable a móvil y escritorio.
 - **Ejecución local:** estructura estándar de Django, una app `blog` y SQLite para desarrollo; el proyecto debe funcionar con migraciones y `runserver`.
 

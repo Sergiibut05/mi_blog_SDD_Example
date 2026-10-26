@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Preparando una publicación</title>
+  <desc id="desc">Un portátil con una lista de comprobación y una pequeña planta sobre el escritorio.</desc>
+  <rect width="960" height="600" rx="28" fill="#f2eadc"/>
+  <circle cx="155" cy="126" r="59" fill="#e8c778"/>
+  <path d="M0 445c170-40 329 30 505 0s300-50 455-3v158H0z" fill="#d8c5a6"/>
+  <rect x="292" y="100" width="430" height="310" rx="20" fill="#233c37"/>
+  <rect x="314" y="122" width="386" height="264" rx="9" fill="#fbf8f1"/>
+  <path d="M346 173l12 12 23-27m22 21h233M346 238l12 12 23-27m22 21h192M346 303l12 12 23-27m22 21h222" fill="none" stroke="#68896d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M244 410h526l46 48H198z" fill="#607d72"/>
+  <rect x="383" y="423" width="235" height="12" rx="6" fill="#e3e8dc"/>
+  <path d="M111 430q-10-103 34-148 44 49 28 148m-68-57q-56-59-44-99 62 17 80 69m28 28q59-63 96-53-8 63-76 94" fill="#68896d"/>
+  <path d="M91 428h145l-17 63h-111z" fill="#d87555"/>
+  <path d="M821 413q-7-73 28-107 31 36 21 107m-51-36q-41-45-32-75 47 12 60 52m25 17q45-47 73-41-6 48-57 71" fill="#8ba07c"/>
+  <path d="M805 412h115l-13 49h-89z" fill="#e4ba83"/>
+  <path d="M768 159h77m-38-39v78" stroke="#d87555" stroke-width="10" stroke-linecap="round"/>
+</svg>

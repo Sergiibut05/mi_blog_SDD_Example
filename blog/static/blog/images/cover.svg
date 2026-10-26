@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Un espacio de trabajo</title>
+  <desc id="desc">Un ordenador con una ventana de código, una taza de café y una planta.</desc>
+  <rect width="640" height="480" rx="32" fill="#dce9db"/>
+  <circle cx="514" cy="96" r="42" fill="#f3c76b"/>
+  <path d="M0 354c102-34 182-13 283 0s209 25 357-8v134H0z" fill="#b7d0b8"/>
+  <rect x="122" y="122" width="338" height="222" rx="18" fill="#19342e"/>
+  <rect x="138" y="138" width="306" height="184" rx="10" fill="#f7f2e8"/>
+  <circle cx="158" cy="158" r="5" fill="#e66d4e"/>
+  <circle cx="176" cy="158" r="5" fill="#efc46d"/>
+  <circle cx="194" cy="158" r="5" fill="#63876a"/>
+  <path d="M164 190h126m-126 24h198m-198 24h144m-144 24h184m-184 24h100" stroke="#829a8a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M165 344h250l31 27H134z" fill="#45645a"/>
+  <rect x="178" y="371" width="224" height="14" rx="7" fill="#19342e"/>
+  <path d="M456 281h68v61h-68z" fill="#e66d4e"/>
+  <path d="M524 293h15a18 18 0 0 1 0 36h-15" fill="none" stroke="#e66d4e" stroke-width="10"/>
+  <path d="M470 271c-12-18 12-19 0-37m24 37c-12-18 12-19 0-37" fill="none" stroke="#60736c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 355q-8-75 24-105 31 35 22 105m-49-34q-39-43-31-71 43 11 55 49m23 15q42-44 67-37-5 44-53 66" fill="#63876a"/>
+  <path d="M64 354h88l-10 37H74z" fill="#e8a58d"/>
+  <path d="M190 90l12-21 12 21m51-8 8-17 10 17m132 23 10-19 10 19" fill="none" stroke="#e66d4e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

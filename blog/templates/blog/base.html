@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ideas, historias y aprendizajes sobre tecnología y desarrollo.">
+    <title>{% block title %}Mi Blog{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'blog/css/styles.css' %}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="{% url 'blog:post_list' %}">Mi Blog<span>.</span></a>
+        <span class="header-note">Ideas sobre tecnología y desarrollo</span>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="site-footer">
+        <p>Un blog sobre tecnología y desarrollo.</p>
+    </footer>
+</body>
+</html>

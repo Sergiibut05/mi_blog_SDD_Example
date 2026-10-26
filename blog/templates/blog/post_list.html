@@ -1,0 +1,43 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block title %}Mi Blog — tecnología y desarrollo{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-copy">
+        <p class="eyebrow">Ideas, historias y aprendizajes</p>
+        <h1>Una mirada cercana a <em>la tecnología.</em></h1>
+        <p>Notas sobre desarrollo, herramientas y las cosas que aprendemos al construir.</p>
+    </div>
+    <img class="hero-image" src="{% static 'blog/images/cover.svg' %}" alt="Un espacio de trabajo con ordenador, café y una planta">
+</section>
+
+<section class="post-section" aria-labelledby="posts-heading">
+    <div class="section-heading">
+        <p class="eyebrow">Lecturas recientes</p>
+        <h2 id="posts-heading">Del teclado al mundo</h2>
+    </div>
+    {% if posts %}
+        <div class="post-list">
+            {% for post in posts %}
+                <article class="post-preview">
+                    {% if post.image %}
+                        <a class="post-image-link" href="{% url 'blog:post_detail' post.slug %}">
+                            <img class="post-image" src="{{ post.image.url }}" alt="{{ post.image_alt }}">
+                        </a>
+                    {% endif %}
+                    <div class="post-preview-copy">
+                        <time class="post-date" datetime="{{ post.published_at|date:'c' }}">{{ post.published_at|date:'j F Y' }}</time>
+                        <h3><a href="{% url 'blog:post_detail' post.slug %}">{{ post.title }}</a></h3>
+                        <p>{{ post.content|truncatechars:180 }}</p>
+                        <a class="read-more" href="{% url 'blog:post_detail' post.slug %}">Leer artículo <span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="empty-state">Todavía no hay publicaciones. ¡Pronto habrá historias por aquí!</p>
+    {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Café y código</title>
+  <desc id="desc">Una taza junto a un ordenador abierto con una ventana de código.</desc>
+  <rect width="960" height="600" rx="28" fill="#e8eee5"/>
+  <circle cx="790" cy="105" r="54" fill="#e9c879"/>
+  <path d="M0 425c190-40 330 30 490 0s300-55 470-5v180H0z" fill="#c7d8c8"/>
+  <rect x="270" y="105" width="430" height="300" rx="22" fill="#233c37"/>
+  <rect x="292" y="129" width="386" height="250" rx="9" fill="#f9f6ee"/>
+  <circle cx="311" cy="148" r="5" fill="#e7866a"/>
+  <circle cx="330" cy="148" r="5" fill="#e9c879"/>
+  <circle cx="349" cy="148" r="5" fill="#8aaa87"/>
+  <path d="M330 193h170m-170 32h235m-235 32h139m-139 32h205m-205 32h115" stroke="#78928a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M220 405h530l48 46H174z" fill="#607d72"/>
+  <rect x="372" y="417" width="225" height="12" rx="6" fill="#d8e2d5"/>
+  <path d="M126 347h119v84H126z" fill="#d87555"/>
+  <path d="M245 362h22a28 28 0 0 1 0 56h-22" fill="none" stroke="#d87555" stroke-width="14"/>
+  <path d="M152 333c-18-22 18-27 0-49m37 49c-18-22 18-27 0-49" fill="none" stroke="#71877a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M796 412q-8-91 35-133 39 44 25 133m-64-45q-51-54-40-90 57 15 73 63m30 21q55-58 89-49-7 58-70 87" fill="#68896d"/>
+  <path d="M779 410h134l-15 57H795z" fill="#d89c79"/>
+</svg>

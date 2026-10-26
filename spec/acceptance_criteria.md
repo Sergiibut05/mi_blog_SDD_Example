@@ -29,6 +29,7 @@ Estos criterios definen las condiciones para considerar terminado el MVP. Las im
 ## 4. Administración y acceso
 
 - [ ] Un usuario autorizado puede crear, editar y borrar publicaciones desde el Django Admin estándar.
+- [ ] Cada publicación tiene los estados borrador y publicada; solo las publicadas aparecen en las páginas de lectura.
 - [ ] La gestión de publicaciones requiere autenticación; no hay formularios públicos para crear o editar contenido.
 - [ ] Las páginas de lectura son accesibles sin iniciar sesión.
 
@@ -41,4 +42,5 @@ Estos criterios definen las condiciones para considerar terminado el MVP. Las im
 ## 6. Ejecución y documentación
 
 - [ ] El proyecto puede iniciarse localmente con SQLite aplicando las migraciones y ejecutando `python manage.py runserver`.
-- [ ] El README explica cómo crear y activar un entorno virtual, instalar dependencias, ejecutar migraciones, crear un superusuario y arrancar el servidor.
+- [ ] El README explica cómo crear y activar un entorno virtual, instalar dependencias, ejecutar migraciones, crear un superusuario, definir o cambiar su contraseña y arrancar el servidor.
+- [ ] El proyecto está versionado en Git y subido a GitHub.

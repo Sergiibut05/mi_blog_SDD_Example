@@ -47,10 +47,12 @@ Campos mínimos del modelo:
 - `slug` (SlugField, único) — opcional si se usa `id` en la URL
 - `content` (TextField)
 - `published_at` (DateTimeField)
+- `is_published` (BooleanField) — permite mantener una publicación como borrador o hacerla pública
 - `created_at` / `updated_at` (opcionales, auto)
 
 ### RF-04 — Gestión de contenido
 - Crear/editar/borrar posts con **Django Admin**
+- Mantener cada post como borrador o publicado; solo los publicados aparecen en las páginas públicas
 - No hay formularios públicos de escritura en el MVP
 
 ### RF-05 — Contenido inicial

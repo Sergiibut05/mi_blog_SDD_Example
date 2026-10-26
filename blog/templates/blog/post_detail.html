@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}{{ post.title }} — Mi Blog{% endblock %}
+
+{% block content %}
+<article class="article">
+    <a class="back-link" href="{% url 'blog:post_list' %}"><span aria-hidden="true">←</span> Volver al listado</a>
+    <header class="article-header">
+        <p class="eyebrow">Artículo</p>
+        <h1>{{ post.title }}</h1>
+        <time class="post-date" datetime="{{ post.published_at|date:'c' }}">{{ post.published_at|date:'j F Y' }}</time>
+    </header>
+    {% if post.image %}
+        <figure class="article-figure">
+            <img class="article-image" src="{{ post.image.url }}" alt="{{ post.image_alt }}">
+        </figure>
+    {% endif %}
+    <div class="article-content">{{ post.content|linebreaks }}</div>
+</article>
+{% endblock %}
